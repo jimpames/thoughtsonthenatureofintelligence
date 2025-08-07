@@ -1,0 +1,7 @@
+# C:\Users\david>ollama run llava "describe this image: ./temp_image.jpg"
+
+cd C:\Users\jimpames\Desktop\RAH-19-sep-dev
+Scripts\activate
+start uvicorn main:app_llama --host 0.0.0.0 --port 8000
+
+
